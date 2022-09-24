@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let height = prompt("Hãy nhập chiều cao vào đây nha: (chiều cao đơn vị met) ");
+        let weight = prompt("Hãy nhập cân nặng vào đây nha: (cân nặng đơn vị kilogam)");
+        let   BMI = weight/(height*height);
+
+        if (BMI >= 17 && BMI <18.5){
+            alert("Gầy độ I");
+        }
+        if (BMI >= 18.5 && BMI <25){
+            alert("Bình thường");
+        }
+        if (BMI >= 25 && BMI <30){
+            alert("Thừa cân");
+        }
+
+    </script>
+</body>
+</html>
